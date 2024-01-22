@@ -200,10 +200,10 @@ body {
   position: absolute;
   /* background: salmon; */
   inset: 0;
-  -webkit-mask-image: url(../img/header-bg.png);
-  -webkit-mask-repeat: no-repeat;
-  -webkit-mask-size: cover;
-  -webkit-mask-position: center;
+  mask-image: url(../img/header-bg.png);
+  mask-repeat: no-repeat;
+  mask-size: cover;
+  mask-position: center;
 }
 
 .hero .content {
@@ -279,10 +279,10 @@ body {
 
 .about .row .about-img img {
   width: 100%;
-  -webkit-mask-image: url(../img/menu/coffee-bean.svg);
-  -webkit-mask-size: 70%;
-  -webkit-mask-repeat: no-repeat;
-  -webkit-mask-position: center;
+  mask-image: url(../img/menu/coffee-bean.svg);
+  mask-size: 70%;
+  mask-repeat: no-repeat;
+  mask-position: center;
 }
 
 .about .row .content {
